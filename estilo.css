@@ -1,0 +1,141 @@
+
+
+/*--Layout--*/
+html, body, .capa{
+    height: 100%;
+}
+body{
+   /* border: 1px solid red;*/
+    background: url('imagens/capa.png'), url('imagens/ruido.png'), linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/*--Barra de Navegação--*/
+
+.img-logo{
+    height: 40px;
+    width: 132px;
+    display: block;
+    background:url('imagens/spotify.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+nav.navbar-transparent{
+    padding: 15px ;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    
+}
+.navbar-brand{
+    padding: 5px ;
+}
+.divisor{
+    height: 16px;
+    width: 1px;
+    background: white;
+    margin: 16px 10px;
+}
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a{
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover{
+    color:#9bf0e1;
+    background: none;
+}
+/*--Imagem de capa--*/
+.capa{
+    
+    display: table;
+    width: 100%;
+    
+}
+.texto-capa{
+    color: white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+/*--botoes--*/
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    padding: 10px 35px;
+    transition: background 0.6s, color 0.6s;
+}
+.btn-roxo{
+    background: #7c25f8;
+}
+.btn-roxo:hover{
+    background:#6207e3;
+    color: white;
+}
+.btn-branco{
+    border: 1px solid white;
+}
+.btn-branco:hover{
+    background: white;
+    color: black;
+}
+/*--section servico--*/
+#servicos{
+    background: white;
+    padding: 20px 20px;
+}
+/*--section servico--*/
+#recursos{
+    color: white;
+    padding: 20px 20px;
+}
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);/* IE 9*/
+    -webkit-transform: rotate(30deg);/*chrome, safari, opera*/
+    padding-left: 60px;
+}
+
+.albuns{
+    padding: 10px 0px 10px 0px ;
+    
+}
+/*--Rodape--*/
+#rodape{
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+.rede-social{
+    float: right;
+}
+/*--tipografia--*/
+h1{
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+#rodape h4{
+    color: #919496;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#servicos h2, #servicos h3{
+    color: #7c25f8;
+}
+#recursos h3{
+    color: #9bf0e1;
+}
